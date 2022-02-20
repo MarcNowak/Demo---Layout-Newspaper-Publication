@@ -3,37 +3,35 @@ import React from 'react';
 
 import styles from './HomePage.module.scss';
 
-// import Trending from '../../features/TrendingBar/TrendingBar';
-// import MostPopular from '../../features/MostPopular/MostPopular';
-// import TopArticles from '../../common/TopArticles/TopArticles';
-// import TopRightColumn from '../../features/TopRightColumn/TopRightColumn';
-// import Tiles from '../../features/Tiles/Tiles';
-// import MiddleArticles  from '../../common/MiddleArticles/MiddleArticles';
-// import MiddleRightColumn from '../../features/MiddleRightColumn/MiddleRightColumn';
-// import Video from '../../features/Video/Video';
-// import BottomArticles from '../../common/BottomArticles/BottomArticles';
-// import ReactPlayer from '../../features/Video/Video';
-
-// import BottomRightColumn from '../../features/BottomRightColumn/BottomRightColumn';
-// import TopSectionWrapper from '../../features/TopSectionWrapper/TopSectionWrapper';
-
-
+import BreakingNews from '../../features/BreakingNews/BreakingNews';
+import TopMainSection from '../../common/TopMainSection/TopMainSection';
+import AdvTop from '../../features/Adv/AdvTop';
+import TopMiddleSection from '../../common/TopMiddleSection/TopMiddleSection';
+import TopBottomSection from '../../common/TopBottomSection/TopBottomSection';
+import AdvMiddle from '../../features/Adv/AdvMiddle';
+import GeneralNews from '../../common/GeneralNews/GeneralNews';
+import Subscribe from '../../features/Subscribe/Subscribe';
+import MiddleSection from '../../common/MiddleSection/MiddleSection';
+import Circles from '../../common/Circles';
+import ExclusiveContent from '../../common/ExclusiveContent';
+import AdvBottom from '../../features/Adv/AdvBottom';
+import BottomSection from '../../common/BottomSection/BottomSection';
 
 const HomePage = () => (
   <div className={styles.root}>
-    {/* <Trending />
-    <MostPopular />
-    <TopArticles />
-    {/* <TopRightColumn /> */}
-    {/* <Tiles />
-    <MiddleArticles /> */}
-
-    {/* <MiddleRightColumn /> */}
-    {/* <TopSectionWrapper /> temporary */}
-    {/* <ReactPlayer />
-    <Video />
-    <BottomArticles />
-    <BottomRightColumn /> */}
+    <BreakingNews />
+    <TopMainSection />
+    <AdvTop />
+    <TopMiddleSection />
+    <TopBottomSection />
+    <AdvMiddle />
+    <GeneralNews />
+    <Subscribe />
+    <MiddleSection />
+    <Circles />
+    <ExclusiveContent />
+    <AdvBottom />
+    <BottomSection />
   </div>
 );
 
